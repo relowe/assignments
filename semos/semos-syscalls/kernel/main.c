@@ -37,7 +37,7 @@ main()
 
   // load up the user space
   proc_load_user_init();
-  load_idle();
+  //load_idle();
 
   // enter the scheduler
   scheduler();
